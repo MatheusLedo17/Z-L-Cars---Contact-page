@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Z&L CARS</title>
+
   <!-- Fonte moderna do Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+
   <!-- Ícones do Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <style>
     body {
       font-family: 'Montserrat', sans-serif;
@@ -18,6 +21,7 @@
       display: flex;
       flex-direction: column;
     }
+
     .header {
       width: 100%;
       height: 250px;
@@ -28,24 +32,29 @@
       align-items: center;
       color: white;
     }
+
     h1, p, .entrecontato {
       opacity: 0;
       animation: fadeSlide 1.5s forwards;
     }
+
     h1 {
       font-weight: 600;
       animation-delay: 0.3s;
       margin: 0;
     }
+
     p {
       font-size: 18px;
       animation-delay: 0.8s;
     }
+
     .entrecontato {
       font-weight: bold;
       margin: 20px 0;
       animation-delay: 1.2s;
     }
+
     @keyframes fadeSlide {
       from {
         opacity: 0;
@@ -56,12 +65,14 @@
         transform: translateY(0);
       }
     }
+
     .buttons-container {
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: center;
     }
+
     .whatsapp-link {
       display: inline-flex;
       align-items: center;
@@ -81,14 +92,51 @@
       animation: fadeSlide 1.5s forwards;
       animation-delay: 1.5s;
     }
+
     .whatsapp-link i {
       margin-right: 10px;
       font-size: 22px;
     }
+
     .whatsapp-link:hover {
       background-color: #1ebe5d;
       transform: scale(1.05);
     }
+
+    .instagram-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 250px;
+      margin: 15px;
+      padding: 15px;
+      background: linear-gradient(
+        45deg,
+        #f58529,
+        #dd2a7b,
+        #8134af,
+        #515bd4
+      );
+      color: white;
+      font-size: 15px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: transform 0.2s ease;
+      opacity: 0;
+      animation: fadeSlide 1.5s forwards;
+      animation-delay: 1.7s;
+    }
+
+    .instagram-link i {
+      margin-right: 10px;
+      font-size: 22px;
+    }
+
+    .instagram-link:hover {
+      transform: scale(1.05);
+    }
+
     hr {
       border: none;
       border-top: 2px solid #000;
@@ -97,20 +145,25 @@
       opacity: 0;
       animation: fadeSlide 1.5s forwards;
     }
+
     hr:first-of-type {
       animation-delay: 1s;
     }
+
     hr:last-of-type {
       animation-delay: 2s;
     }
-    .icons-top, .icons-bottom {
+
+    .icons-top,
+    .icons-bottom {
       display: flex;
       justify-content: center;
       gap: 15px;
       margin: 10px 0;
       font-size: 24px;
-      color: black; /* ícones pretos */
+      color: black;
     }
+
     footer {
       background-color: #25D366;
       color: white;
@@ -121,8 +174,9 @@
     }
   </style>
 </head>
+
 <body>
-  <!-- Header faixa verde menor -->
+  <!-- Header -->
   <div class="header">
     <h1>Seja bem vindo à<br> Z&L CARS 🚗</h1>
     <p>Confiança e qualidade sobre rodas.</p>
@@ -130,30 +184,51 @@
 
   <hr>
 
-  <!-- Ícones acima da barrinha -->
+  <!-- Ícones acima -->
   <div class="icons-top">
     <i class="fas fa-car"></i>
     <i class="fas fa-car-side"></i>
     <i class="fas fa-circle"></i>
     <i class="fas fa-circle"></i>
   </div>
-  
+
   <p class="entrecontato">Entre em contato</p>
 
-  <!-- Botões centralizados com mensagens automáticas -->
+  <!-- Botões -->
   <div class="buttons-container">
-    <a class="whatsapp-link" href="https://wa.me/5544997555905?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?" target="_blank">
-      <i class="fab fa-whatsapp"></i> Matheus
+
+    <a class="whatsapp-link"
+      href="https://wa.me/5544997555905?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?"
+      target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Matheus
     </a>
-    <a class="whatsapp-link" href="https://wa.me/5544998087778?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?" target="_blank">
-      <i class="fab fa-whatsapp"></i> Lourival
+
+    <a class="whatsapp-link"
+      href="https://wa.me/5544998087778?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?"
+      target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Lourival
     </a>
-    <a class="whatsapp-link" href="https://wa.me/5544999866631?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?" target="_blank">
-      <i class="fab fa-whatsapp"></i> Luiz
+
+    <a class="whatsapp-link"
+      href="https://wa.me/5544999866631?text=Olá%20tudo%20bem?%0AQuais%20veículos%20vocês%20têm%20disponíveis%20no%20momento?"
+      target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Luiz
     </a>
+
+<a class="instagram-link"
+   href="https://www.instagram.com/valerio.s.cars/?hl=pt-br"
+   target="_blank"
+   rel="noopener noreferrer">
+  <i class="fab fa-instagram"></i>
+  Contato Valério Select Cars
+</a>
+
   </div>
 
-  <!-- Ícones abaixo da barrinha -->
+  <!-- Ícones abaixo -->
   <div class="icons-bottom">
     <i class="fas fa-car"></i>
     <i class="fas fa-car-side"></i>
@@ -163,10 +238,11 @@
 
   <hr>
 
-  <!-- Footer fixado no fim da tela -->
+  <!-- Rodapé -->
   <footer>
     Z&L CARS — Desde 2026<br>
     Desenvolvido por Matheus Ledo
   </footer>
+
 </body>
 </html>
